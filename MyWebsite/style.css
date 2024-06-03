@@ -1,13 +1,14 @@
 body {
-display: flex;
-justify-content: center;
-background:#1f1f1f ;
-margin-top: 100px;
-}
+    display: flex;
+    justify-content: center;
+    background:#1f1f1f ;
+    margin-top: 100px;
+    marg
+}   
 .container {
     border: 1px solid white;
-    width: 80%;
-    max-width: 900px;
+    width: 85%;
+    max-width: 950px;
     background-color:rgb(18,18,18) ;
 }
 .header {
@@ -60,7 +61,17 @@ margin-top: 100px;
     color: whitesmoke;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
     display: inline-block;
+}
+.aboutme p {
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div a{
     text-decoration: none;
@@ -87,49 +98,62 @@ div a{
     white-space: nowrap;
     display: inline;
     letter-spacing: .15em;
+    margin-left: 5px;
 }
-  
-  .fadein {
+
+.fadein {
     animation: 1.5s fadeIn 0s; 
-  }
-  
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 img {
     height: 50px;
     object-fit: cover;
 }
+.unsel{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+}
 .links {
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
+    justify-content:baseline;
     margin-bottom: 15px;
+    animation: 10s fadeIn 0s;
 }
 .gram {
     color:magenta;
     margin-top: 20px;
-    margin-right: 17px;
+    margin-right: 17px;     
 }
 .cord {
     color:skyblue;
     margin-top: 20px;
     margin-right: 15px;
+    margin-left: 5px; 
 }
 .tube {
     color:red;
     margin-top: 20px;
     margin-right: 17px;
+    margin-left: 5px; 
 }
 .hub {
     color:indigo;
     margin-top: 20px;
     margin-right: 17px;
+    margin-left: 5px; 
 }
 .mail {
     color: whitesmoke;
     margin-top: 20px;
-    margin-left: 3px;
+    margin-left: 5px;
 }
+
+
