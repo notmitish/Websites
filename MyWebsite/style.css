@@ -111,8 +111,9 @@ div a{
 }
 
 img {
-    height: 50px;
-    object-fit: cover;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
 }
 .unsel{
     margin-left: 10px;
@@ -122,37 +123,43 @@ img {
 }
 .links {
     display: flex;
+    flex-direction: column  ;
     justify-content:baseline;
     margin-bottom: 15px;
     animation: 10s fadeIn 0s;
 }
 .gram {
     color:magenta;
-    margin-top: 20px;
-    margin-right: 17px;     
+    position: relative;
+    left: 40px;
+    bottom:27px;
 }
 .cord {
     color:skyblue;
-    margin-top: 20px;
-    margin-right: 15px;
     margin-left: 5px; 
+    left: 40px;
+    bottom:27px;
+    position: relative;
 }
 .tube {
     color:red;
-    margin-top: 20px;
-    margin-right: 17px;
     margin-left: 5px; 
+    left: 40px;
+    bottom:27px;
+    position: relative;
 }
 .hub {
     color:indigo;
-    margin-top: 20px;
-    margin-right: 17px;
     margin-left: 5px; 
+    left: 40px;
+    bottom:27px;
+    position: relative;
 }
 .mail {
     color: whitesmoke;
-    margin-top: 20px;
     margin-left: 5px;
+    left: 40px;
+    bottom:27px;
+    position: relative;
 }
-
 
