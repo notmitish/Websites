@@ -1,0 +1,118 @@
+body{
+    font-family:Arial;
+    background-color:#f0f2f5;
+}
+a {
+    text-decoration: none;
+  }
+.logo{
+    font-size:24px;
+}
+.facebook-logo{
+    height:50px;
+    margin-top: 10px;
+}
+.login-box{
+    padding-bottom:24px;
+    padding-top:10px;
+    background-color:#fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    position:fixed;
+    right:300px;
+    bottom:220px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.email,.password{
+    display:inline-block;
+    font-family:inherit;
+    padding:14px 16px;
+    width:330px;
+    font-size:17px;
+    margin-left:14px;
+    border-radius:6px;
+    border-style:solid;
+    border-color:#dddfe2;
+    background-color: #FFFFFF;
+    height: 22px;
+    line-height: 16px;
+    vertical-align:middle; 
+}
+.password{
+    margin-top:8px;
+}
+
+.login{
+    margin-top:20px;
+    background-color: #0866ff;
+    border: 2px solid #0866FF;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 370px;
+    color:white;
+    margin-left:13px;
+}
+.forgot{
+    text-align:center;
+    color:#0866FF;
+    font-size:14px;
+    margin-left:150px;
+}
+.new-account{
+    margin-top:6px;
+    background:#42B72A;
+    color:white;
+    border:none;
+    padding:14px 16px;
+    border-radius:8px;
+    margin-left:112px;
+    font-size:17px;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #727c89;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+    opacity:0.25;
+}
+
+.login:hover{
+    cursor:pointer;
+}
+.forgot:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.new-account:hover{
+    cursor:pointer;
+    background-color:#3BA126;
+}
+.logo{
+    margin-left:150px;
+    margin-top:200px;
+    width:370px;
+    font-size:24px;
+}
+.shit{
+    position:fixed;
+    right:350px;
+    bottom:165px;
+    font-size:14px;
+}
+.bruh:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.bruh{
+    font-weight:bold;
+}

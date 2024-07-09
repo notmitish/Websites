@@ -1,0 +1,117 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:rgb(233, 235, 238);
+}
+.head{
+    background-color:white;
+    display: inline-flex;
+    width:100000px;
+    height:60px;
+    border: 1px ;
+
+    margin-left: -100px;
+    margin-top:-10px;
+}
+.logo_area img{ 
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 107px;
+}
+.creds{
+    margin-top: 15px;
+    
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-width: 0.8px;
+    box-shadow: 1px black;
+    
+}
+.cred1{
+    margin-left: 800px;
+    padding:10px;
+    border-radius: 5px;
+    border:0.5px solid #ccc;
+    font-size: 15px;
+    font-family: inherit;
+}
+.cred2{
+    padding:10px;
+    border-radius: 5px;
+    border:0.5px solid #ccc;
+    font-size: 15px;
+    font-family: inherit;
+    margin-left: 5px;
+}
+.creds button {
+    background-color: #0866FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 17px;
+}
+.creds a {
+    text-decoration: none;
+    color: #0866FF;
+    font-size: 15px;
+}
+.main{
+    font-family: Arial;
+    background-color:rgb(233, 235, 238);
+    align-items: center;
+}
+.box {
+    background-color: white;
+    position: relative;
+    border: 0.5px solid lightgray;
+    margin-top: 100px;
+    margin-left: 520px;
+    height:270px;
+    width: 500px;
+    border-radius: 10px;
+
+    font-size: 17px
+}
+.box p {
+    margin-left: 15px;
+}
+.box input{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding: 16px 0 16px 16px;
+    width: 444px;
+    border-radius: 7px;
+    border: 2px solid lightgray;
+}
+.box h1 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: -1px;
+}
+.cancel{
+    margin-left: 340px ;
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 30px;
+    width: 70px;
+    color: rgb(51, 50, 50);
+}
+.search{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+    width: 70px;
+}
+.foot{
+    background-color: white;
+    padding-top:194px;
+    margin-top: 55px;
+}
