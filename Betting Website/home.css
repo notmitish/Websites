@@ -68,7 +68,9 @@ main input {
     border-radius: 200px;
     width: 200px;
     text-align: center;
-    height: 20px;
+    height: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .pic2 {
     margin-left: 180px;
@@ -136,3 +138,30 @@ main input {
     opacity: 1;
   }
   
+
+
+ .line-1 {
+    position: relative;
+    margin-left: 380px;
+    margin-bottom:-50px;
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
